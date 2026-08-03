@@ -1,0 +1,5 @@
+# built binary
+/glaze
+
+# goreleaser output
+/dist/

@@ -1,0 +1,19 @@
+module github.com/foundry23/glaze
+
+go 1.26.5
+
+require github.com/urfave/cli/v3 v3.10.1
+
+require (
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/telemetry v0.0.0-20260708182218-49f421fb7959 // indirect
+	golang.org/x/tools v0.48.0 // indirect
+	mvdan.cc/gofumpt v0.11.0 // indirect
+)
+
+tool (
+	golang.org/x/tools/cmd/goimports
+	mvdan.cc/gofumpt
+)
